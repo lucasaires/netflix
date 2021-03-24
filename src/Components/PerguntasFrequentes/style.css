@@ -1,0 +1,43 @@
+.content-perguntas {
+  background-color: black;
+  color: white;
+  border-top: solid 8px gray;
+  margin-top: 0 !important;
+}
+
+.box {
+  max-width: 1259px;
+  justify-content: center;
+  align-items: center;
+  display: grid;
+  padding-bottom: 80px;
+}
+
+.content-accordion {
+  max-width: 815px !important;
+  justify-content: center;
+  align-items: center;
+}
+
+.title-perguntas {
+  margin-top: 80px;
+  text-align: center;
+  font-size: 3.125rem;
+  line-height: 1.1;
+  margin-bottom: 45px;
+}
+
+.c2 {
+  margin-top: 20px;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+}
+
+#email {
+  height: 60px;
+}
+
+.button-enviar {
+  height: 60px;
+}

@@ -1,0 +1,141 @@
+.bc {
+  background-image: url("../../assets/home/netflix-background.png");
+  height: 100vh;
+  width: 100vw;
+  position: relative;
+  background-position: center;
+  max-width: none;
+  width: auto;
+}
+
+.Container-header {
+  display: flex;
+  flex-direction: column;
+}
+
+.nav-bar {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 20px 0 0 0;
+  margin: 0 56px;
+}
+
+#logo {
+  width: 175px;
+}
+
+#entrar {
+  border: 1px solid #e50914;
+  color: white;
+  background-color: #e50914;
+  font-size: 1rem;
+  line-height: normal;
+  padding: 7px 17px;
+  font-weight: 400;
+  display: flex;
+  flex-direction: column;
+}
+
+.button-entrar {
+  margin-left: 20px;
+  height: auto;
+  border-radius: 2px;
+}
+
+.button-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  height: 50%;
+}
+
+.button-container select {
+  background: transparent;
+  width: 90px;
+  color: white;
+  overflow: hidden;
+  border: 1px solid;
+  margin-right: 20px;
+  height: auto;
+}
+
+.button-container select:focus,
+.button-container select:active,
+.button-container select:focus {
+  color: white;
+  transition: 0s;
+}
+
+select option {
+  color: #333;
+}
+
+option[value=""][disabled] {
+  display: none;
+}
+
+.button-container select:has(option[value=""]) {
+  color: red;
+}
+.Container {
+  height: 500px;
+  color: white;
+}
+
+.content {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  height: 100%;
+  margin-top: 50px;
+}
+
+.title {
+  font-size: 3.125rem;
+  margin-bottom: 20px;
+  max-width: 640px;
+  justify-content: center;
+  text-align: center;
+}
+
+.subtitle {
+  font-size: 1.625rem;
+  font-weight: 400;
+  margin-bottom: 20px;
+}
+
+.content-input {
+  max-width: 950px;
+  padding: 10px 10px 0;
+  border-radius: 2px;
+  display: flex;
+  flex-direction: column;
+}
+
+.p-content {
+  max-width: none;
+  padding-bottom: 20px;
+  font-size: 1.2rem;
+}
+
+.c2 {
+  display: flex;
+  height: 60px;
+}
+
+#email {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  width: 450px;
+}
+
+.button-enviar {
+  width: 150px;
+  color: white;
+  background-color: #e50914;
+  font-size: 1.625rem;
+  margin-left: 1px;
+}
